@@ -1,7 +1,8 @@
 <template>
     <div>
         <header-component></header-component>
-        <div>this is template body.</div>
+        <div>This is template body.</div>
+        <router-view></router-view>
         <other-component></other-component>
     </div>
 </template>
@@ -21,7 +22,7 @@
         },
         components:{
             'other-component':OtherComponent,
-            HeaderComponent,
+            HeaderComponent
         }
     }
 </script>

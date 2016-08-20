@@ -54,6 +54,7 @@ Vue.transition('expand', {
 // Set routes here
 router.map({
     '/': {
+        name: 'Index',
         component: Home
     },
     '/about': {

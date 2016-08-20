@@ -2,7 +2,9 @@
     <div>
         <h1>Footer component, {{ name }}!</h1>
         <input type="text" v-model="name">
+
         <!-- named route -->
+        <a v-link="{ name: 'Index' }">Index</a>
         <a v-link="{ name: 'About', params: { userId: 123 }}">About</a>
     </div>
 </template>
