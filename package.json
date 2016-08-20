@@ -1,0 +1,24 @@
+{
+  "name": "vuejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^1.0.26",
+    "vue-resource": "^0.9.3",
+    "vue-router": "^0.7.13"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^6.0.0-10",
+    "laravel-elixir-browserify-official": "^0.1.3",
+    "laravel-elixir-browsersync-official": "^1.0.0",
+    "laravel-elixir-stylus": "^2.0.3",
+    "laravel-elixir-vueify": "^2.0.0"
+  }
+}
